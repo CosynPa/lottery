@@ -1,0 +1,3 @@
+There are lottery systems in many games. The simplest implementation is that one gives a fixed probability and draws the lottery with that probability. The number of trials for a win has a geometric distribution. This distribution has a drawback that the variance is very large especially when the probability is low. So we'd like to have some alternative systems to solve this problem.
+
+In this notebook we introduced a lottery method that has lower variances than geometric distributions and can also easily keep the gaining expectation unchanged.
